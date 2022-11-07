@@ -13,6 +13,11 @@
             </li>
           </ul>
           <div class="d-flex">
+            <div class="me-3">
+              <a href="https://www.youtube.com/watch?v=6lg-IxWEkAE">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </div>
             <div class="name">
               <span
                 ><h4><strong>ลีโอณิช เช็ง 6310450051</strong></h4></span
@@ -27,9 +32,9 @@
         <p>DevCamp KU</p>
         <h1>Team 418</h1>
         <h3>Welcome to my site</h3>
-        <div class="row d-inline-flex p-2">
+        <!-- <div class="row d-inline-flex p-2">
           <router-link class="link" to="/Contact">Contact Us</router-link>
-        </div>
+        </div> -->
       </div>
     </main>
   </div>
@@ -70,6 +75,12 @@ export default {
   -webkit-background-clip: text;
   background-position: 0 0;
 }
+.text-box h1:hover {
+  font-size: 140px;
+  line-height: 160px;
+  margin-left: -10px;
+  color: #fff;
+}
 
 .text-box .link {
   color: #fff;
@@ -90,6 +101,10 @@ export default {
   font-weight: 500;
 }
 .name {
+  color: #000000;
+}
+
+.bi-youtube {
   color: #000000;
 }
 </style>
