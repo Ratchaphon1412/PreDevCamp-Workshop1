@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
-          <i class="bi bi-terminal-fill"></i>
+          <i class="bi bi-dropbox"></i>
         </router-link>
         <router-link class="nav-link" to="/">Home</router-link>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -15,7 +15,7 @@
           <div class="d-flex">
             <div class="name">
               <span
-                ><h4><strong>รัชพล หินซุย 6410450257</strong></h4></span
+                ><h4><strong>ลีโอณิช เช็ง 6310450051</strong></h4></span
               >
             </div>
           </div>

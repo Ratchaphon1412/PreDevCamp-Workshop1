@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
-          <i class="bi bi-terminal-fill"></i>
+          <i class="bi bi-dropbox"></i>
         </router-link>
         <router-link class="nav-link" to="/">Home</router-link>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -15,7 +15,7 @@
           <div class="d-flex">
             <div class="name">
               <span
-                ><h4><strong>รัชพล หินซุย 6410450257</strong></h4></span
+                ><h4><strong>ลีโอณิช เช็ง 6310450051</strong></h4></span
               >
             </div>
           </div>
@@ -66,10 +66,9 @@ export default {
   margin-left: -10px;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
-  background: url(../assets/back.png);
+
   -webkit-background-clip: text;
   background-position: 0 0;
-  animation: back 20s linear infinite;
 }
 
 .text-box .link {
@@ -85,11 +84,7 @@ export default {
   padding: 10px 20px;
   border: 2px solid #fff;
 }
-@keyframes back {
-  100% {
-    background-position: 2000px 0;
-  }
-}
+
 .text-box h3 {
   font-size: 40px;
   font-weight: 500;
